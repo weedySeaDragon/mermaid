@@ -14,10 +14,10 @@ on:
   pull_request:
     branches:
       - master
-  workflow_dispatch:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron: '30 8 * * *'
+  #workflow_dispatch:
+  #schedule:
+   # # * is a special character in YAML so you have to quote this string
+   # - cron: '30 8 * * *'
 
 jobs:
   link-checker:
